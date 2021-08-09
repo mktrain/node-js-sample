@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   git branch: 'master',url: ''https://github.com/mktrain/node-js-sample.git"
+   git branch: 'master',url: 'https://github.com/mktrain/node-js-sample.git'
  }
  
  stage("Build")
