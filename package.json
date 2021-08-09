@@ -5,6 +5,7 @@
   "main": "index.js",
   "publishConfig": {
     "registry": "http://34.131.71.42:8081/repository/npm-repo/"
+  },
   "scripts": {
     "start": "node index.js"
   },
