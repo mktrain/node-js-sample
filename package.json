@@ -3,11 +3,14 @@
   "version": "0.2.0",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "http://34.131.71.42:8081/repository/npm-repo/"
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.13.3"
+    "sonarqube-scanner": "^2.7.0"
   },
   "engines": {
     "node": "4.0.0"
