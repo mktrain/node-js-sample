@@ -13,7 +13,6 @@ node
     }
  }  
  
-        } 
 		
     stage('UploadintoNexus') {
        nodejs(nodeJSInstallationName: 'nodejs15.3.0') {
